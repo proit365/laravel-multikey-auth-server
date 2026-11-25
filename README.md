@@ -93,10 +93,6 @@ The Laravel migration and tests were also run against MySQL 8.0.46. Multi-worker
 replay, shared rate limiting, production HTTPS, and request-size limits remain
 separate release checks.
 
-## Development and production readiness
-
-> **Development status:** MKAP v1 remains under development and is not recommended for production use. Publication on Packagist and passing package/MySQL tests do not constitute production certification. Multi-worker replay behavior, shared rate-limiter deployment, production HTTPS and request-size enforcement still require deployment-level validation. Protected export creation is disabled pending authenticated-envelope opening support across client SDKs. The protocol has not received an independent security review. Use this package for development, testing, and evaluation until these gaps are resolved.
-
 ## Source and support
 
 Project website: [https://www.proit365.com](https://www.proit365.com).
